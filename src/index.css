@@ -24,6 +24,10 @@ body {
   cursor: pointer;
 }
 
+.gray {
+  color: #737b73;
+}
+
 .link {
   transition: background-color .8s, color .8s;
   padding: 3px 8px;
@@ -41,4 +45,37 @@ body {
 .link2 {
   transition: background-color .8s, color .8s;
   padding: 5px 58px;
+}
+
+.logo-container {
+  transform: translateY(50px);
+}
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.logo-container {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.logos {
+  display: flex;
+  gap: 120px;
+  width: 200%;
+  animation: slide 10s linear infinite;
+}
+
+.logos img {
+  flex: none;
+  width: 15%;
 }
