@@ -72,10 +72,29 @@ body {
   display: flex;
   gap: 120px;
   width: 200%;
-  animation: slide 10s linear infinite;
+  animation: slide 8s linear infinite;
 }
 
 .logos img {
   flex: none;
   width: 15%;
+}
+
+.card {
+  background: #242524;
+  padding: 10px 20px;
+  color: gainsboro;
+  border-radius: 20px;
+}
+
+.light {
+  background-color: rgb(178 174 175 / 24%);
+}
+
+.dark {
+  background: #242524;
+}
+
+img {
+  width: 100%;
 }

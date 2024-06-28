@@ -1,5 +1,3 @@
-
-
 import logo1 from '../assets/Logo 1.svg'
 import logo2 from '../assets/Logo 2.svg'
 import logo3 from '../assets/Logo 3.svg'
@@ -9,7 +7,7 @@ import logo5 from '../assets/Logo 5.svg'
 function Brands() {
   return (
     <div>
-      <div className='flex items-baseline'>
+      <div className='items-baseline flex flex-col md:flex-row'>
         <div className="mx-5 mt-32 logo-slide">
           <p className="text-white archivo">Brands that trust us</p>
           <p className="gray w-80">Leading brands rely on SalesInsightPro to optimize strategies and drive growth.</p>
