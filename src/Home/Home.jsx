@@ -2,6 +2,7 @@ import './Brands'
 import Brands from './Brands'
 import FirstCard from './FirstCard'
 import SecondCard from './SecondCard'
+import BoostSales from './BoostSales'
 
 function Home() {
   return (
@@ -23,6 +24,7 @@ function Home() {
       <Brands />
       <FirstCard />
       <SecondCard />
+      <BoostSales />
     </div>
   )
 }
