@@ -97,5 +97,10 @@ body {
 
 img {
   width: 100%;
+}
 
+.green-bg {
+  background: rgb(59, 149, 59);
+  padding: 2px 4px;
+  border-radius: 5px;
 }
