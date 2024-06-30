@@ -5,11 +5,11 @@ const Faq = () => {
     <div className='w-full p-4 text-white flex flex-col gap-5'>
       <div className='mb-4 flex flex-col gap-2 text-center justify-center'>
         <div className='flex justify-center gap-2'>
-          <p className='text-5xl text-green-500 underline archivo'>Frequently</p>
-          <p className='text-5xl archivo'>Asked</p>
+          <p className='lg:text-5xl text-2xl text-green-500 underline archivo'>Frequently</p>
+          <p className='lg:text-5xl text-2xl archivo'>Asked</p>
         </div>
 
-        <p className='text-5xl archivo'>Questions</p>
+        <p className='lg:text-5xl text-2xl archivo'>Questions</p>
         <p className='text-gray-300'>Find answers to common questions about pricing, payment methods, subscription models, and refund policies.</p>
       </div>
       <Accordion title="How much does it cost?" content='Our pricing plans vary based on your business needs. Please visit our pricing page for more details.' />
