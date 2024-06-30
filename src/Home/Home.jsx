@@ -3,6 +3,7 @@ import Brands from './Brands'
 import FirstCard from './FirstCard'
 import SecondCard from './SecondCard'
 import PricingCard from './PricingCard'
+import Faq from '../faq/Faq'
 
 function Home() {
   return (
@@ -25,6 +26,7 @@ function Home() {
       <FirstCard />
       <SecondCard />
       <PricingCard />
+      <Faq />
     </div>
   )
 }

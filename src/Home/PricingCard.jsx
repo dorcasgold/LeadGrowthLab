@@ -22,7 +22,7 @@ function PricingCard() {
           <p className={`cursor-pointer text-white ${title === 'Yearly' ? 'green-bg' : ''}`} onClick={() => setTitle('Yearly')}>Yearly</p>
         </div>
 
-        <div className="cards flex gap-10 lg:gap-8 mt-14 flex-col lg:flex-row">
+        <div className="cards flex gap-10 justify-center lg:gap-5 mt-14 flex-col lg:flex-row">
           <div className='dark text-white px-7 py-8 rounded-lg flex flex-col gap-3'>
             <div className='flex flex-col gap-3'>
               <p className='text-xl archivo text-green-500'>BASIC</p>
@@ -59,7 +59,7 @@ function PricingCard() {
             </div>
           </div>
 
-          <div className='bg-green-500 translate-y-[-20px] text-black px-6 py-16 rounded-lg flex flex-col gap-3'>
+          <div className='bg-green-500 translate-y-[-20px] text-black px-3 py-16 rounded-lg flex flex-col gap-3'>
             <div className='flex justify-between'>
               <p className='text-xl archivo'>STANDARD</p>
               <p className="bg-gray-300 px-3 py-1 rounded-lg">Popular</p>
@@ -103,7 +103,7 @@ function PricingCard() {
             </div>
           </div>
 
-          <div className='dark text-white translate-y-[-40px] px-8 py-14 rounded-lg flex flex-col gap-3'>
+          <div className='dark text-white translate-y-[-40px] px-6 py-14 rounded-lg flex flex-col gap-3'>
             <div className='flex flex-col gap-3'>
               <p className='text-xl archivo'>PRO</p>
               <p>Designed for large-scale businesses</p>
