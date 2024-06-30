@@ -4,6 +4,7 @@ import FirstCard from './FirstCard'
 import SecondCard from './SecondCard'
 import PricingCard from './PricingCard'
 import Faq from '../faq/Faq'
+import Dashboard from './Dashboard'
 
 function Home() {
   return (
@@ -27,6 +28,7 @@ function Home() {
       <SecondCard />
       <PricingCard />
       <Faq />
+      <Dashboard />
     </div>
   )
 }
