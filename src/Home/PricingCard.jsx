@@ -3,14 +3,14 @@ import { useState } from 'react'
 function PricingCard() {
   const [title, setTitle] = useState('Monthly')
   return (
-    <div className="m-20 mt-40">
+    <div className="lg:m-20 mt-40 ">
       <div className='flex justify-center flex-col w-full items-center gap-8'>
         <div className='text-white flex flex-col gap-3'>
-          <div className='text-5xl archivo flex gap-3 justify-center'>
+          <div className='text-2xl lg:text-5xl archivo flex gap-3 justify-center'>
             <span>Explore our </span>
             <span className='text-green-500 underline'> flexible and</span>
           </div>
-          <div className='text-5xl archivo flex gap-3 justify-center'>
+          <div className='text-2xl lg:text-5xl archivo flex gap-3 justify-center'>
             <span className='text-green-500 underline'>affordable</span>
             <span>pricing plans</span>
           </div>
@@ -22,7 +22,7 @@ function PricingCard() {
           <p className={`cursor-pointer text-white ${title === 'Yearly' ? 'green-bg' : ''}`} onClick={() => setTitle('Yearly')}>Yearly</p>
         </div>
 
-        <div className="cards flex gap-8 mt-14">
+        <div className="cards flex gap-10 lg:gap-8 mt-14 flex-col lg:flex-row">
           <div className='dark text-white px-7 py-8 rounded-lg flex flex-col gap-3'>
             <div className='flex flex-col gap-3'>
               <p className='text-xl archivo text-green-500'>BASIC</p>
