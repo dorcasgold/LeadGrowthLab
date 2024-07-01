@@ -3,10 +3,10 @@ import dashboard from '../assets/Dashboard.svg'
 function Dashboard() {
   return (
     <div className='my-10 mt-32'>
-      <div className='flex dark rounded-2xl'>
+      <div className='flex dark rounded-2xl flex-col lg:flex-row  gap-3'>
         <div className='text-white flex flex-col gap-3 justify-center px-8 '>
-          <p className='archivo text-4xl'>Boost Your Sales with</p>
-          <p className='archivo text-4xl underline text-green-500'>Boomslang</p>
+          <p className='archivo text-xl lg:text-4xl pt-3   lg:pt-0'>Boost Your Sales with</p>
+          <p className='archivo text-xl lg:text-4xl underline text-green-500'>SalesInsightPro</p>
           <p>Unlock a suite of robust marketing and analytics tools that will propel your business to new heights and drive growth. Access the power you need.</p>
           <div>
             <button className='archivo mt-6 text-lg bg-green-500 px-5 cursor-pointer flex rounded-lg py-4 text-black font-semibold'>Get Started</button>

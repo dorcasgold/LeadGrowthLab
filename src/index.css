@@ -105,3 +105,20 @@ img {
   border-radius: 5px;
   color: black;
 }
+
+.input {
+  font-size: 18px;
+  padding: 8px 14px;
+  width: 100%;
+  outline: none;
+  background-color: #242524;
+  color: #F5F5F5;
+  border-radius: 8px;
+  transition: .3s ease;
+  width: 350px;
+}
+
+.input::placeholder {
+  color: #DDDDDD;
+  font-size: 14px;
+}
